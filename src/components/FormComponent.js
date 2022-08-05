@@ -1,4 +1,13 @@
 import React from "react";
+import './style-component/FormComponent.css'
+import styled from 'styled-components';
+
+
+const Button = styled.button`
+  background-color: white;
+  color: blue;
+  border: 2px solid blue;
+`;
 
 export default function FormComponent() {
   return (
