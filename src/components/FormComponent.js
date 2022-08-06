@@ -1,31 +1,22 @@
 import React from "react";
-import './style-component/FormComponent.css'
-import styled from 'styled-components';
-
-
-const Button = styled.button`
-  background-color: white;
-  color: blue;
-  border: 2px solid blue;
-`;
 
 export default function FormComponent() {
   return (
-    <div className="container">
-      <form className="form-validation">
-        <div className="form-control">
+    <div>
+      <form>
+        <div>
           <input type="text" placeholder="First Name" />
           <small>First Name cannot be empty</small>
         </div>
-        <div className="form-control">
+        <div>
           <input type="text" placeholder="Last Name" />
           <small>Last Name cannot be empty</small>
         </div>
-        <div className="form-control">
+        <div>
           <input type="text" placeholder="Email Address" />
           <small>Looks like this is not an email</small>
         </div>
-        <div className="form-control">
+        <div>
           <input type="text" placeholder="Password" />
           <small>Password cannot be empty</small>
         </div>
