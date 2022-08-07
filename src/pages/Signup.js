@@ -3,9 +3,9 @@ import FormComponent from "../components/FormComponent";
 
 export default function Signup() {
   return (
-    <div className="box-border px-48 w-screen h-screen bg-[color:var(--Red)] bg-hero-pattern bg-no-repeat font-font">
-      <main className=" grid grid-cols-2 content-center h-screen">
-        <section className=" text-white flex flex-col justify-center">
+    <div className="box-border px-52 w-screen h-screen bg-[color:var(--Red)] bg-hero-pattern bg-no-repeat bg-cover bg-center font-font">
+      <main className=" grid grid-cols-2 h-screen place-items-end mx-auto items-center">
+        <section className=" text-white flex flex-col ">
           <h1 className=" text-5xl font-semibold mb-8">
             Learn to code by watching others
           </h1>
@@ -15,8 +15,8 @@ export default function Signup() {
             is invaluable.
           </p>
         </section>
-        <section >
-          <button className="px-10 py-3 bg-[color:var(--Blue)] text-white  w-full rounded-lg shadow-custom-shadow mb-6">
+        <section className="w-6/7">
+          <button className="px-10 py-4 bg-[color:var(--Blue)] text-white  w-full rounded-lg shadow-custom-shadow mb-6">
             Try it free 7 days then $20-mo. thereafter
           </button>
           <FormComponent />

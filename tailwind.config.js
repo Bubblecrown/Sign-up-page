@@ -11,7 +11,9 @@ module.exports = {
     },
     boxShadow: {
       'custom-shadow': '0px 6px 0px 1px rgba(0,0,0,0.2)',
-    }
+      'submit-shadow': '0px 4px 0px 1px rgba(0,0,0,0.4)',
+    },
+
   },
   plugins: [],
 };
