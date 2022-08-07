@@ -3,7 +3,7 @@ import React from "react";
 export default function FormComponent() {
   return (
     <div>
-      <form>
+      <form className="py-5 px-8 bg-white">
         <div>
           <input type="text" placeholder="First Name" />
           <small>First Name cannot be empty</small>
