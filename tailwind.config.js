@@ -4,16 +4,16 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-      'hero-pattern': "url('/public/assets/bg-intro-desktop.png')",
-    }},
+        "hero-pattern": "url('/public/assets/bg-intro-desktop.png')",
+      },
+    },
     fontFamily: {
-      font : ['Poppins']
+      font: ["Poppins"],
     },
     boxShadow: {
-      'custom-shadow': '0px 6px 0px 1px rgba(0,0,0,0.2)',
-      'submit-shadow': '0px 4px 0px 1px rgba(0,0,0,0.4)',
+      "custom-shadow": "0px 6px 0px 1px rgba(0,0,0,0.2)",
+      "submit-shadow": "0px 2px 0px 1px rgba(0,0,0,0.5)",
     },
-
   },
   plugins: [],
 };

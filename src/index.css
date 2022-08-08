@@ -4,6 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
 :root {
   --Red: hsl(0, 100%, 74%);
   --Green: hsl(154, 59%, 51%);
@@ -13,6 +16,15 @@
 
 @layer base {
   input {
-    @apply text-sm placeholder-slate-500 font-semibold px-6 py-4 w-full rounded-md outline outline-1 outline-slate-300;
+    @apply text-sm placeholder-slate-500 font-semibold px-6 py-4 w-full rounded-md outline outline-1 outline-slate-300 focus:outline-[color:var(--Blue)];
+  }
+  small {
+    @apply text-red-500 text-xs italic flex justify-end mt-2;
+  }
+}
+
+@layer components {
+  .form-controls{
+    @apply mb-4
   }
 }
