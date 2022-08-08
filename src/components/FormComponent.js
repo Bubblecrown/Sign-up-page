@@ -1,9 +1,14 @@
 import React from "react";
 import errorIcon from "../assets/icon-error.svg";
+import { Formik } from "formik";
+
 export default function FormComponent() {
-  return (
-    <div>
-      <form className="py-9 px-10 bg-white rounded-lg shadow-custom-shadow">
+  const formValidation = ({ handleChange, handleSubmit, values }) => {
+    return (
+      <form
+        className="py-9 px-10 bg-white rounded-lg shadow-custom-shadow"
+        onSubmit={handleSubmit}
+      >
         <div className="form-controls">
           <div className="relative flex items-center justify-end ">
             <img src={errorIcon} alt="Error Icon" className="absolute mr-5" />
@@ -11,6 +16,10 @@ export default function FormComponent() {
               type="text"
               placeholder="First Name"
               aria-label="First Name Field"
+              id="firstName"
+              name="firstName"
+              onChange={handleChange}
+              value={values.firstName}
             />
           </div>
           <small>First Name cannot be empty</small>
@@ -22,6 +31,10 @@ export default function FormComponent() {
               type="text"
               placeholder="Last Name"
               aria-label="Last Name Field"
+              id="lastName"
+              name="lastName"
+              onChange={handleChange}
+              value={values.lastName}
             />
           </div>
           <small>Last Name cannot be empty</small>
@@ -33,6 +46,10 @@ export default function FormComponent() {
               type="text"
               placeholder="Email Address"
               aria-label="Email Address Field"
+              id="email"
+              name="email"
+              onChange={handleChange}
+              value={values.email}
             />
           </div>
           <small>Looks like this is not an email</small>
@@ -44,6 +61,10 @@ export default function FormComponent() {
               type="text"
               placeholder="Password"
               aria-label="Password Field"
+              id="password"
+              name="password"
+              onChange={handleChange}
+              value={values.password}
             />
           </div>
           <small>Password cannot be empty</small>
@@ -65,6 +86,19 @@ export default function FormComponent() {
           </a>
         </p>
       </form>
+    );
+  };
+
+  return (
+    <div>
+      <Formik
+        onSubmit={(values, { setSubmitting }) => {
+          alert(JSON.stringify(values));
+        }}
+        initialValues={{ firstName: "", lastName: "", email: "", password: "" }}
+      >
+        {(props) => formValidation(props)}
+      </Formik>
     </div>
   );
 }
