@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-pattern": "url('/public/assets/bg-intro-desktop.png')",
-        "hero-pattern-mobile": "url('/public/assets/bg-intro-mobile.png')"
+        "hero-pattern-mobile": "url('/public/assets/bg-intro-mobile.png')",
       },
     },
     fontFamily: {
@@ -16,7 +16,21 @@ module.exports = {
       "submit-shadow": "0px 2px 0px 1px rgba(0,0,0,0.5)",
     },
     screens: {
-      's': '375px',
+      "s": "375px",
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
     },
   },
   plugins: [],

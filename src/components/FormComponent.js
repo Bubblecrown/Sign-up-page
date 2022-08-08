@@ -6,7 +6,7 @@ export default function FormComponent() {
   const formValidation = ({ handleChange, handleSubmit, values }) => {
     return (
       <form
-        className="py-9 px-10 bg-white rounded-lg shadow-custom-shadow "
+        className="py-9 lg:px-10 s:px-6 bg-white rounded-lg shadow-custom-shadow "
         onSubmit={handleSubmit}
       >
         <div className="form-controls">
