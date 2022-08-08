@@ -2,11 +2,9 @@ import React from "react";
 import FormComponent from "../components/FormComponent";
 
 export default function Signup() {
-  
-
   return (
-    <div className=" px-52 w-screen h-screen bg-[color:var(--Red)] bg-hero-pattern bg-no-repeat bg-cover bg-center font-font">
-      <main className=" grid grid-cols-2 h-screen items-center">
+    <div className=" lg:px-52 sm:px-16 s:px-16 s:py-16 w-screen h-full bg-[color:var(--Red)] lg:bg-hero-pattern lg:bg-no-repeat sm:h-screen  lg:py-0 bg-auto bg-center font-font md:py-20 md:bg-hero-pattern-mobile">
+      <main className="grid lg:grid-cols-2 lg:h-screen sm:h-full items-center sm:grid-cols-1 ">
         <section className=" text-white flex flex-col ">
           <h1 className=" text-5xl font-semibold mb-8">
             Learn to code by watching others
@@ -21,7 +19,7 @@ export default function Signup() {
           <button className="px-10 py-4 bg-[color:var(--Blue)] text-white  w-full rounded-lg shadow-custom-shadow mb-6">
             Try it free 7 days then $20-mo. thereafter
           </button>
-            <FormComponent/>
+          <FormComponent />
         </section>
       </main>
     </div>

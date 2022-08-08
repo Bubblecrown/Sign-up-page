@@ -6,7 +6,7 @@ export default function FormComponent() {
   const formValidation = ({ handleChange, handleSubmit, values }) => {
     return (
       <form
-        className="py-9 px-10 bg-white rounded-lg shadow-custom-shadow"
+        className="py-9 px-10 bg-white rounded-lg shadow-custom-shadow "
         onSubmit={handleSubmit}
       >
         <div className="form-controls">
@@ -69,6 +69,8 @@ export default function FormComponent() {
           </div>
           <small>Password cannot be empty</small>
         </div>
+
+        {/* 3D button */}
         <div>
           <button
             type="submit"
@@ -76,11 +78,13 @@ export default function FormComponent() {
         "
           >
             <div className="absolute h-full bg-[#1e7f55] -bottom-1 border-[#1e7f55] border rounded-lg inset-x-0 px-10 "></div>
-            <span className="relative px-[151px] py-4 bg-[color:var(--Green)] rounded-lg">
+            <span className="relative px-[151px] py-4 bg-[color:var(--Green)] rounded-lg transition transform duration-150 active:translate-y-2 hover:translate-y-1">
               CLAIM YOUR FREE TRIAL
             </span>
           </button>
         </div>
+        {/* End 3D button */}
+
         <p className="text-[10px] text-center">
           By clicking the button, you are agreeing to our&nbsp;
           <a

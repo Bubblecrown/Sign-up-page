@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-pattern": "url('/public/assets/bg-intro-desktop.png')",
+        "hero-pattern-mobile": "url('/public/assets/bg-intro-mobile.png')"
       },
     },
     fontFamily: {
@@ -13,6 +14,9 @@ module.exports = {
     boxShadow: {
       "custom-shadow": "0px 6px 0px 1px rgba(0,0,0,0.2)",
       "submit-shadow": "0px 2px 0px 1px rgba(0,0,0,0.5)",
+    },
+    screens: {
+      's': '375px',
     },
   },
   plugins: [],
