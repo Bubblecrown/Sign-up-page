@@ -69,13 +69,18 @@ export default function FormComponent() {
           </div>
           <small>Password cannot be empty</small>
         </div>
-        <button
-          type="submit"
-          className="w-full bg-[color:var(--Green)] px-10 py-4 shadow-submit-shadow text-white rounded-md mb-5 mt-2
+        <div>
+          <button
+            type="submit"
+            className="w-full py-4 text-white rounded-md mb-5 mt-2 relative
         "
-        >
-          CLAIM YOUR FREE TRIAL
-        </button>
+          >
+            <div className="absolute h-full bg-[#1e7f55] -bottom-1 border-[#1e7f55] border rounded-lg inset-x-0 px-10 "></div>
+            <span className="relative px-[151px] py-4 bg-[color:var(--Green)] rounded-lg">
+              CLAIM YOUR FREE TRIAL
+            </span>
+          </button>
+        </div>
         <p className="text-[10px] text-center">
           By clicking the button, you are agreeing to our&nbsp;
           <a
