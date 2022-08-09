@@ -15,7 +15,7 @@ export default function Signup() {
             is invaluable.
           </p>
         </section>
-        <section className="w-full">
+        <section className="w-full md:w-11/12">
           <button className="s:px-10 s:py-4 bg-[color:var(--Blue)] text-white w-full rounded-lg shadow-custom-shadow ss:mb-6 ss:px-8 ss:py-2 s:text-base ss:text-xs">
             Try it free 7 days then $20-mo. thereafter
           </button>
