@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('/public/images/bg-intro-desktop.png')",
-        "hero-pattern-mobile": "url('/public/images/bg-intro-mobile.png')",
+        "hero-pattern": "url('/public/assets/bg-intro-desktop.png')",
+        "hero-pattern-mobile": "url('/public/assets/bg-intro-mobile.png')",
       },
     },
     fontFamily: {
