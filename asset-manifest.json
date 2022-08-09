@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Sign-up-page/static/css/main.f8b542cd.css",
-    "main.js": "/Sign-up-page/static/js/main.50473b45.js",
+    "main.css": "/Sign-up-page/static/css/main.ff5b8f21.css",
+    "main.js": "/Sign-up-page/static/js/main.376296ce.js",
     "static/js/787.346bcb15.chunk.js": "/Sign-up-page/static/js/787.346bcb15.chunk.js",
     "static/media/bg-intro-desktop.png": "/Sign-up-page/static/media/bg-intro-desktop.059183eea52640c5068d.png",
     "static/media/bg-intro-mobile.png": "/Sign-up-page/static/media/bg-intro-mobile.02ce398270ece1769ebc.png",
     "index.html": "/Sign-up-page/index.html",
     "static/media/icon-error.svg": "/Sign-up-page/static/media/icon-error.b72f792e9c900128f5c88f10a0d8d4b7.svg",
-    "main.f8b542cd.css.map": "/Sign-up-page/static/css/main.f8b542cd.css.map",
-    "main.50473b45.js.map": "/Sign-up-page/static/js/main.50473b45.js.map",
+    "main.ff5b8f21.css.map": "/Sign-up-page/static/css/main.ff5b8f21.css.map",
+    "main.376296ce.js.map": "/Sign-up-page/static/js/main.376296ce.js.map",
     "787.346bcb15.chunk.js.map": "/Sign-up-page/static/js/787.346bcb15.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8b542cd.css",
-    "static/js/main.50473b45.js"
+    "static/css/main.ff5b8f21.css",
+    "static/js/main.376296ce.js"
   ]
 }
