@@ -141,7 +141,7 @@ export default function FormComponent() {
             disabled={isSubmitting}
           >
             <div className="absolute h-full bg-[#1e7f55] -bottom-1 border-[#1e7f55] border rounded-lg inset-x-0 px-10 "></div>
-            <div className="relative xl:px-[151px] xl:py-4 lg:py-4 ss:px-4 ss:py-3  bg-[color:var(--Green)] rounded-lg transition transform duration-150 active:translate-y-1 s:text-sm ss:text-xs lg:text-base">
+            <div className="relative xl:px-30 xl:py-4 lg:py-4 ss:px-4 ss:py-3  bg-[color:var(--Green)] rounded-lg transition transform duration-150 active:translate-y-1 s:text-sm ss:text-xs lg:text-[16px]">
               CLAIM YOUR FREE TRIAL
             </div>
           </button>
