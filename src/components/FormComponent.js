@@ -6,7 +6,7 @@ export default function FormComponent() {
   const formValidation = ({ handleChange, handleSubmit, values }) => {
     return (
       <form
-        className="py-9 lg:px-10 s:px-6 bg-white rounded-lg shadow-custom-shadow "
+        className="py-9 px-10 s:px-6 bg-white rounded-lg shadow-custom-shadow "
         onSubmit={handleSubmit}
       >
         <div className="form-controls">
@@ -74,13 +74,13 @@ export default function FormComponent() {
         <div>
           <button
             type="submit"
-            className="w-full py-4 text-white rounded-md mb-5 mt-2 relative
+            className="w-full text-white rounded-md mb-5 mt-2 relative
         "
           >
             <div className="absolute h-full bg-[#1e7f55] -bottom-1 border-[#1e7f55] border rounded-lg inset-x-0 px-10 "></div>
-            <span className="relative px-[151px] py-4 bg-[color:var(--Green)] rounded-lg transition transform duration-150 active:translate-y-2 hover:translate-y-1">
+            <div className="relative xl:px-[151px] xl:py-4 lg:py-4 s:px-4 s:py-3  bg-[color:var(--Green)] rounded-lg transition transform duration-150 active:translate-y-1 hover:translate-y-1 s:text-sm lg:text-base">
               CLAIM YOUR FREE TRIAL
-            </span>
+            </div>
           </button>
         </div>
         {/* End 3D button */}

@@ -3,8 +3,8 @@ import FormComponent from "../components/FormComponent";
 
 export default function Signup() {
   return (
-    <div className=" lg:px-52 sm:px-16 s:px-16 lg:py-0 md:py-20 s:py-16 w-screen h-full bg-[color:var(--Red)] lg:bg-hero-pattern lg:bg-no-repeat sm:h-screen bg-auto bg-center font-font py-0  s:bg-hero-pattern-mobile md:text-left s:text-center">
-      <main className="grid lg:grid-cols-2 lg:h-screen sm:h-full items-center sm:grid-cols-1 lg:gap-0 s:gap-5 ">
+    <div className="px-10 py-10 xl:px-40 lg:px-10 sm:px-16 xl:py-0 lg:py-10 md:py-20 s:py-16 w-full h-full lg:h-full md:h-full md:min-h-screen bg-[color:var(--Red)] lg:bg-hero-pattern lg:bg-no-repeat bg-center font-font s:bg-hero-pattern-mobile s:bg-repeat-y md:text-left text-center">
+      <main className="grid lg:grid-cols-2 sm:grid-cols-1 lg:h-screen sm:h-full content-center items-center  lg:gap-0 s:gap-5 ">
         <section className=" text-white flex flex-col ">
           <h1 className=" text-5xl font-semibold mb-8">
             Learn to code by watching others
