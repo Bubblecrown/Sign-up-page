@@ -16,8 +16,8 @@ module.exports = {
       "submit-shadow": "0px 2px 0px 1px rgba(0,0,0,0.5)",
     },
     screens: {
-      'ss': '1px',
-      's': '375px',
+      'ss': '240px',
+      's': '360px',
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 

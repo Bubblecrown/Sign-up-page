@@ -16,15 +16,20 @@
 
 @layer base {
   input {
-    @apply text-sm placeholder-slate-500 font-semibold px-6 py-4 w-full rounded-md outline outline-1 outline-slate-300 focus:outline-[color:var(--Blue)];
+    @apply placeholder-slate-500 font-semibold  w-full rounded-md outline outline-1 outline-slate-300 focus:outline-[color:var(--Blue)];
+    @apply ss:px-4 ss:py-2 s:text-sm ss:text-xs s:px-6 s:py-4;
   }
   small {
     @apply text-red-500 text-xs italic flex justify-end mt-2;
+    @apply ss:text-right s:text-[12px] ss:text-[6px];
   }
 }
 
 @layer components {
-  .form-controls{
-    @apply mb-4
+  .form-controls {
+    @apply mb-4;
+  }
+  .icon-class {
+    @apply absolute md:mr-5 s:mr-3 ss:mr-2 s:w-6 ss:w-4;
   }
 }

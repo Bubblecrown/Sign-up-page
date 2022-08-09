@@ -6,12 +6,12 @@ export default function FormComponent() {
   const formValidation = ({ handleChange, handleSubmit, values }) => {
     return (
       <form
-        className="py-9 px-10 s:px-6 bg-white rounded-lg shadow-custom-shadow "
+        className="s:py-9 s:px-6 ss:py-6 ss:px-4 bg-white rounded-lg shadow-custom-shadow "
         onSubmit={handleSubmit}
       >
         <div className="form-controls">
           <div className="relative flex items-center justify-end ">
-            <img src={errorIcon} alt="Error Icon" className="absolute mr-5" />
+            <img src={errorIcon} alt="Error Icon" className="icon-class" />
             <input
               type="text"
               placeholder="First Name"
@@ -26,7 +26,7 @@ export default function FormComponent() {
         </div>
         <div className="form-controls">
           <div className="relative flex items-center justify-end ">
-            <img src={errorIcon} alt="Error Icon" className="absolute mr-5" />
+            <img src={errorIcon} alt="Error Icon" className="icon-class" />
             <input
               type="text"
               placeholder="Last Name"
@@ -41,7 +41,7 @@ export default function FormComponent() {
         </div>
         <div className="form-controls">
           <div className="relative flex items-center justify-end ">
-            <img src={errorIcon} alt="Error Icon" className="absolute mr-5" />
+            <img src={errorIcon} alt="Error Icon" className="icon-class" />
             <input
               type="text"
               placeholder="Email Address"
@@ -56,7 +56,7 @@ export default function FormComponent() {
         </div>
         <div className="form-controls">
           <div className="relative flex items-center justify-end ">
-            <img src={errorIcon} alt="Error Icon" className="absolute mr-5" />
+            <img src={errorIcon} alt="Error Icon" className="icon-class" />
             <input
               type="text"
               placeholder="Password"
@@ -78,14 +78,14 @@ export default function FormComponent() {
         "
           >
             <div className="absolute h-full bg-[#1e7f55] -bottom-1 border-[#1e7f55] border rounded-lg inset-x-0 px-10 "></div>
-            <div className="relative xl:px-[151px] xl:py-4 lg:py-4 s:px-4 s:py-3  bg-[color:var(--Green)] rounded-lg transition transform duration-150 active:translate-y-1 hover:translate-y-1 s:text-sm lg:text-base">
+            <div className="relative xl:px-[151px] xl:py-4 lg:py-4 ss:px-4 ss:py-3  bg-[color:var(--Green)] rounded-lg transition transform duration-150 active:translate-y-1  hover:translate-y-1 s:text-sm ss:text-xs lg:text-base">
               CLAIM YOUR FREE TRIAL
             </div>
           </button>
         </div>
         {/* End 3D button */}
 
-        <p className="text-[10px] text-center">
+        <p className="s:text-[10px] ss:text-[6px] text-center">
           By clicking the button, you are agreeing to our&nbsp;
           <a
             href="/"
