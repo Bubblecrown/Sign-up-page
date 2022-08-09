@@ -165,7 +165,7 @@ export default function FormComponent() {
     <div>
       <Formik
         onSubmit={(values, { setSubmitting }) => {
-          // alert(JSON.stringify(values));
+          alert(JSON.stringify(values));
           setTimeout(() => {
             setSubmitting(false);
           }, 2000);
